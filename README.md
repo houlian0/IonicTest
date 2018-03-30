@@ -7,7 +7,8 @@ cordova+AngularJS+ionic+arcgis for js 4.6（离线） 结合的移动端跨平�
     npm install
     ```
 
-## 2、添加cordova的支持，详见：https://ionicframework.com/docs/cli/cordova/platform/
+## 2、添加cordova的支持
+官网地址：https://ionicframework.com/docs/cli/cordova/platform/
 
     ```
     ionic cordova platform add <android|ios| 根据情况选择>
