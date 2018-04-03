@@ -15,48 +15,48 @@
   <script type="text/javascript">
     var dojoConfig = {
       isDebug: true,
-      async: 0,
-      baseUrl: "../node_modules/arcgis/4.6",
-      hasCache: {
-        "config-selectorEngine": "acme",
-        "config-tlmSiblingOfDojo": 1,
-        "dojo-built": 1,
-        "dojo-has-api": 1,
-        "dojo-loader": 1,
-        "dojo-undef-api": 0,
-        "dom": 1,
-        "extend-esri": 1,
-        "host-browser": 1
+        async: true,
+        baseUrl: '../node_modules',
+        hasCache: {
+        'config-selectorEngine': 'acme',
+          'config-tlmSiblingOfDojo': 1,
+          'dojo-built': 1,
+          'dojo-has-api': 1,
+          'dojo-loader': 1,
+          'dojo-undef-api': 0,
+          'dom': 1,
+          'extend-esri': 1,
+          'host-browser': 1
       },
       packages: [
         {
-          location: "./moment",
-          name: "moment"
+          location: './moment',
+          name: 'moment'
         }, {
-          location: "./dojox",
-          name: "dojox"
+          location: './dojox',
+          name: 'dojox'
         }, {
-          location: "./dstore",
-          main: "Store",
-          name: "dstore"
+          location: './dojo-dstore',
+          main: 'Store',
+          name: 'dstore'
         }, {
-          location: "./esri",
-          name: "esri"
+          location: './arcgis-js-api',
+          name: 'esri'
         }, {
-          location: "./dijit",
-          name: "dijit"
+          location: './dijit',
+          name: 'dijit'
         }, {
-          location: "./dgrid",
-          main: "OnDemandGrid",
-          name: "dgrid"
+          location: './dgrid',
+          main: 'OnDemandGrid',
+          name: 'dgrid'
         }, {
-          location: "./dojo",
-          name: "dojo"
+          location: './dojo',
+          name: 'dojo'
         }]
     }
   </script>
 
-  <link rel="stylesheet" href="../node_modules/arcgis/4.6/esri/css/main.css">
+  <link rel="stylesheet" href="../node_modules/arcgis-js-api/css/main.css">
 
   <!--<link rel="stylesheet" href="https://js.arcgis.com/4.6/esri/css/main.css">-->
 
